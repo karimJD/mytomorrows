@@ -1,0 +1,82 @@
+.container {
+    position: absolute;
+    width: 1280px;
+    height: 448px;
+    left: 0px;
+    top: 571px;
+
+    background: #F2F3EF;
+}
+
+.img {
+    position: absolute;
+    width: 581px;
+    height: 448px;
+    left: 0px;
+    top: 0px;
+}
+
+.title {
+    position: absolute;
+    width: 565px;
+    height: 52px;
+    left: 610px;
+    top: 30px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.dTitle {
+position: absolute;
+width: 154px;
+height: 23px;
+left: 610px;
+top: 80px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+
+color: #00A56A;
+}
+
+.desc {
+    position: absolute;
+    width: 500px;
+    height: 213px;
+    left: 610px;
+    top: 115px;
+
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #000000;
+}
+
+.explore {
+    position: absolute;
+    width: 208px;
+    height: 52px;
+    left: 620px;
+    top: 320px;
+    
+    background: #00A56A;
+    border-radius: 4px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}

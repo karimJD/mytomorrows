@@ -1,0 +1,97 @@
+/* Palette */
+
+$green : #00A56A;
+$grey : #383635;
+$blue : #CAE2EE;
+$section-two : #F2F3EF;
+$main-font : Roboto;
+
+%message-shared {
+    position: absolute;
+    width: 115px;
+    height: 50px;
+    top: 18px;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 23px;
+}
+.container {
+    position: absolute;
+    width: auto;
+    height: 89px;
+    left: -6px;
+    top: 30px;
+}
+
+.logo {
+    position: absolute;
+    width: 321px;
+    height: 92px;
+    left: 29px;
+    top: -3px;
+}
+
+.btn-home {
+    @extend %message-shared;
+    left: 405px;
+}
+
+.btn-reports {
+    @extend %message-shared;
+    left: 555px;
+}
+
+.btn-jobs {
+    @extend %message-shared;
+    left: 701px;
+}
+
+.btn-login {
+    position: absolute;
+    width: 115px;
+    height: 50px;
+    left: 890px;
+    top: 18px;
+    border: 3px solid $green;
+    background-color: transparent;
+    color: $green;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.btn-company-website {
+    position: absolute;
+    width: 184px;
+    height: 50px;
+    left: 1020px;
+    top: 18px;
+    background: #00A56A;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    
+}
+
+.arrow {
+    width: 26px;
+    height: 23px;
+    left: 1187px;
+    top: 35px;
+    color: white;
+    
+}
